@@ -1,6 +1,10 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div id="app" class="ui-container">
+    <router-view class="router-view"></router-view>
+    <!-- <div class="refresh-btn">
+      <p>抱歉，服务器出小差啦~</p>
+      <ssui-button @btn-click="window.location.reload()">点击刷新</ssui-button>
+    </div> -->
   </div>
 </template>
 
